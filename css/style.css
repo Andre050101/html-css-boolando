@@ -9,6 +9,9 @@
 .debug{
     border: 1px solid black;
 }
+.debug2{
+    border: 1px solid white;
+}
 
 /*Variabili*/
 :root{
@@ -57,7 +60,7 @@ li{
     list-style: none;
 }
 
-header nav div ul li a{
+a{
     color: white;
     text-decoration: none;
 }
@@ -74,8 +77,20 @@ main nav div div p:nth-of-type(2){
     text-transform: uppercase;
 }
 
-main nav div:first-child{
+main nav div{
     padding-bottom: 30px;
+}
+footer nav div{
+    width: 50%;
+}
+h4{
+    padding-bottom: 10px;
+}
+footer nav div ul li{
+    font-size: 0.8em;
+}
+.icons{
+    font-size: 20px;
 }
 
 /*Flex*/
@@ -97,6 +112,12 @@ main nav div:first-child{
 .a-items-center{
     align-items: center;
 }
+.f-wrap-no{
+    flex-wrap: nowrap;
+}
+.f-dir-column{
+    flex-direction: column;
+}
 
 /*id*/
 #logo{
@@ -110,4 +131,10 @@ main nav div:first-child{
 }
 .p-right-3perc{
     padding-right: 3%;
+}
+.p-left-right-perc{
+    padding: 0% 3%;
+}
+.p-left-4perc{
+    padding-left: 4%;
 }
