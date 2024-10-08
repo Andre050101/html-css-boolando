@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug{
+    border: 1px solid black;
+}
+
+:root{
+    --Orange-header:#ff6a00;
+    --Sostenibility-green: #008000;
+    --footer-grey: #1a1a1a;
+}
+
+header{
+    background-color: var(--Orange-header);
+}
+
+footer{
+    background-color: var(--footer-grey);
+    color: white;
+}
+
