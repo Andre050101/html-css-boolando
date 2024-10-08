@@ -6,12 +6,12 @@
 }
 
 /*Debug*/
-.debug{
+/*.debug{
     border: 1px solid black;
 }
 .debug2{
     border: 1px solid white;
-}
+}*/
 
 /*Variabili*/
 :root{
@@ -138,3 +138,21 @@ footer nav div ul li{
 .p-left-4perc{
     padding-left: 4%;
 }
+
+/*Hover
+.img1{
+    display: block;
+}
+.img2{
+    display:none;
+}
+
+#cambioimg{
+
+}
+#cambioimg:hover.img1{
+    display: none;
+}
+#cambioimg:hover.img2{
+    display: block;
+}*/
