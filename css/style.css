@@ -50,6 +50,14 @@ li{
     list-style: none;
 }
 
+header nav div ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main nav div div img{
+    height: 530px;
+}
 
 /*Flex*/
 .d-flex{
@@ -74,4 +82,13 @@ li{
 /*id*/
 #logo{
     width: 140px;
+}
+
+
+/*Padding*/
+.p-left-3perc{
+    padding-left: 3%;
+}
+.p-right-3perc{
+    padding-right: 3%;
 }
